@@ -1,0 +1,93 @@
+.scroll-gridList {
+  width: 100%;
+  height: 100%;
+  border: 1px solid $color-fill1-6;
+  outline: none;
+
+  .scroll-gridList-body {
+    outline: none;
+  }
+
+  .scroll-gridList-header {
+    background-color: $color-brand1-1;
+    display: flex;
+    height: 32px;
+
+    label {
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: center;
+      border: none;
+      border-right: 1px solid $color-fill1-6;
+      border-bottom: 1px solid $color-fill1-6;
+      flex: 1;
+    }
+  }
+
+  .table-cell {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    border-right: 1px solid $color-fill1-6;
+    border-bottom: 1px solid $color-fill1-6;
+    outline: none;
+
+    &.current {
+      background-color: $color-other-2;
+      color: white;
+    }
+  }
+}
+
+.table-pagination {
+  .next-pagination.start .next-pagination-size-selector {
+    float: none
+  }
+
+  .next-pagination.start .next-pagination-pages {
+    float: none
+  }
+
+  .pagination-barbox {
+    margin-top: 30px;
+    text-align: center;
+
+    * {
+      vertical-align: middle;
+    }
+
+    .pagination-total-box {
+      display: inline-block;
+      margin: 0 20px 0 0;
+
+      var {
+        vertical-align: baseline
+      }
+    }
+
+    .next-pagination {
+      display: inline-block;
+
+      .next-pagination-size-selector {
+        margin-right: 25px;
+      }
+    }
+  }
+}

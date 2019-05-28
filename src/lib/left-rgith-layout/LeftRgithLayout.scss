@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.left-rgith-layout {
+  display: flex;
+  flex-flow: row;
+  height: 100%;
+}
+
+.left-fixed {
+  .left-part {
+    background: #eee;
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+  .right-part {
+    flex: 1;
+  }
+}
+
+.right-fixed {
+  .left-part {
+    flex: 1;
+  }
+  .right-part {
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+}

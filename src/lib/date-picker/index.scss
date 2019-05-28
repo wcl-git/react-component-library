@@ -1,0 +1,35 @@
+.enhance-datepicker {
+  display: inline-block;
+  position: relative;
+  .enhance-input {
+    width: 100%;
+    z-index: 200;
+    position: absolute;
+    left: 0;
+    top:0;
+  }
+  .error-border, .focus.error-border {
+    border-color: #00B7EB;
+  }
+  
+  .date-icon {
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    z-index: 210;
+    .next-icon:before {
+      width: 16px;
+      line-height: 30px;
+      font-size: 16px;
+      color: #ccc;
+    }
+  }
+}
+
+.own-datePicker .next-date-picker-input {
+  visibility: hidden;
+}
+
+.own-datePicker-popup .next-date-picker-panel-header{
+  display: none;
+}

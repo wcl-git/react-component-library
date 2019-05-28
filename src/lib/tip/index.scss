@@ -1,0 +1,22 @@
+.ell-box{
+  display: inline-block;
+  white-space: nowrap;
+  width:100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  &.has-ell{
+    
+  }
+  ins{
+    position:absolute;
+    visibility:hidden;
+    white-space: nowrap;
+    font-style: inherit;
+    z-index:-5;
+    left:-99999in;
+  }
+}
+.next-overlay-wrapper .next-balloon-tooltip{
+  word-wrap:break-word;
+}
