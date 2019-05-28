@@ -1,5 +1,5 @@
 /**
- **@Author: 谭生虎 TanShenghu tanshenghu@163.com
+ **@Author: 吴春雷
  **@Update: 2019-01-15
  **@Description: table表格支持列的左右拖动
  */

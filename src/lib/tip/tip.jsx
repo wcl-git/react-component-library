@@ -1,5 +1,5 @@
 /**
-** Author: 谭生虎 TanShenghu tanshenghu@163.com
+** Author: 吴春雷
 ** Update: 2018-06-28
 ** Description: tip冒泡提示框   因为飞冰提示框不符合视觉等方面的要求所以花点时间自己进行了二次封装
 */
